@@ -1,0 +1,100 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "4fdff9af-c4d4-4394-8648-54bcc26a419f": {
+        "id": "4fdff9af-c4d4-4394-8648-54bcc26a419f",
+        "parent": null,
+        "name": "testOhiInd",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "65410bf8-02d7-4fe2-81ad-febf4bd95303"
+        ],
+        "isRemovable": false,
+        "filePath": "testOhiInd"
+      },
+      "65410bf8-02d7-4fe2-81ad-febf4bd95303": {
+        "id": "65410bf8-02d7-4fe2-81ad-febf4bd95303",
+        "parent": "4fdff9af-c4d4-4394-8648-54bcc26a419f",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "testOhiInd/lambda.js",
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": [
+          {
+            "resourceName": "apigusEast2Singaporetestinduany",
+            "config": {}
+          }
+        ]
+      }
+    },
+    "rootNode": "4fdff9af-c4d4-4394-8648-54bcc26a419f",
+    "openFiles": [
+      "65410bf8-02d7-4fe2-81ad-febf4bd95303"
+    ],
+    "currentFileId": "65410bf8-02d7-4fe2-81ad-febf4bd95303",
+    "resources": {
+      "apigusEast2Singaporetestinduany": {
+        "name": "apigusEast2Singaporetestinduany",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "us-east-2",
+          "apiMode": 0,
+          "apiName": "Singapore",
+          "endpointType": "REGIONAL",
+          "resourceMode": 0,
+          "resourceName": "test/indu",
+          "resourcePath": "/test/indu",
+          "restMethod": "ANY",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 0,
+          "stageName": "test1236",
+          "mode": 0
+        }
+      }
+    },
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "testOhiInd",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-2",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1581488290796
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "testOhiInd",
+      "url": "https://github.com/Indunil1992/testOhiInd"
+    }
+  }
+}
